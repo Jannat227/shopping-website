@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jannat's Shop</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo">Jannat's Home</h2>
+  
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="toggle" class="theme-btn">🌙</button></li>
+    </ul>
+  </nav>
+
+  <div class="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</header>
+
+<main>
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div>
+      <h1>Discover Your Own Style</h1>
+      <p>Modern fashion made for you.</p>
+      <button class="primary-btn">Shop Now</button>
+    </div>
+    <img src="images/main.jpg" alt="Fashion">
+  </section>
+
+  <!-- Categories -->
+  <section class="categories" id="categories">
+    <h2>Categories</h2>
+    <div class="category-grid">
+      <div class="category-card">Shirts</div>
+      <div class="category-card">T-Shirts</div>
+      <div class="category-card">Pants</div>
+      <div class="category-card">Dresses</div>
+      <div class="category-card">Jackets</div>
+      <div class="category-card">Accessories</div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products" id="shop">
+    <h2>Best Selling</h2>
+    <div class="grid">
+      <a href="1.html" class="card-link">
+        <article class="card">
+          <img src="images/main.jpg" alt="Product">
+          <h3>Fashion Item</h3>
+          <p>$28.99</p>
+          <button>Add to Cart</button>
+        </article>
+      </a>
+      <a href="1.html" class="card-link">
+        <article class="card">
+          <img src="images/main.jpg" alt="Product">
+          <h3>Fashion Item</h3>
+          <p>$28.99</p>
+          <button>Add to Cart</button>
+        </article>
+      </a>
+      <a href="1.html" class="card-link">
+        <article class="card">
+          <img src="images/main.jpg" alt="Product">
+          <h3>Fashion Item</h3>
+          <p>$28.99</p>
+          <button>Add to Cart</button>
+        </article>
+      </a>
+    </div>
+  </section>
+
+  <!-- Offer -->
+  <section class="offer">
+    <h2>Exclusive Offer</h2>
+    <p>Up to 40% off</p>
+    <span id="countdown"></span>
+  </section>
+</main>
+
+<footer class="footer" id="contact">
+  <p>© 2026 Jannat's Home | Frontend Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
